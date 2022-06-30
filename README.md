@@ -1,6 +1,19 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+This bundle contains Enhanced Load Balanced Participant plugin. This plugin is used in a process in "Map Participants to Users" tab. 
+
+If you need an automatic user task assignment in a subsequent activity in a process, add this plugin to your participant map to perform the automatic assignment. 
+
+The participant plugin will assign tasks to the user (within user defined parameters) with the least number of total pending assignments. If there are two or more candidates, the first user (sorted alphabetically by username) will be assigned.
+
+The plugin will evaluate and assign the user the task based on the following parameters:
+
+Within an organization
+Within a department
+Within a group
+Within this app or globally
+Exclude current logged in user
+Ignore users task count in selected activities
 
 # Getting Help
 
